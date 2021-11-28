@@ -1,0 +1,142 @@
+@import './colors';
+@import './mixins';
+@import './fonts';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hind_Siliguri';
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;;
+    list-style: none;
+    text-decoration: none;
+    &-nav{
+        
+        position: absolute;
+        width: 1109px;
+        height: 48px;
+        left: 165px;
+        top: 57px;
+        list-style: none;
+    text-decoration: none;
+    }
+
+    &-item{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #292830;
+         list-style: none;
+        text-decoration: none;
+
+    }
+    &-button{
+        width: 160px;
+        height: 48px;
+        border-radius: 8px;
+        left: 1114px;
+        border: 1px solid #FF7235;
+        color: #FF7235;
+        list-style: none;
+        text-decoration: none;
+
+    }
+
+
+}
+.img{
+    position: absolute;
+    left: 51.04%;
+    right: 11.58%;
+    top: 23.44%;
+    bottom: 23.44%;
+}
+.img-text{
+    position: absolute;
+    width: 540px;
+    height: 288px;
+    left: 165px;
+    top: 219px;
+    
+    /* Title */
+    
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    }
+    
+.img-text-first{
+    font-family: Hind Siliguri;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 39px;
+    color: #BDBDBD;
+    width: 540px;
+    height: 39px;
+    left: 165px;
+    top: 527px;
+    font-weight: normal;
+    }
+
+    
+.img-button{
+    
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 24px;
+
+position: static;
+width: 143px;
+height: 39px;
+left: 24px;
+top: 200px;
+/* Sub-title */
+
+
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+position: absolute;
+width: 225px;
+height: 75px;
+left: 165px;
+top: 606px;
+
+/* Main color */
+
+background: #FF7235;
+border-radius: 8px;
+
+/* Vector */
+
+
+position: absolute;
+left: 16.67%;
+right: 16.67%;
+top: 37.5%;
+bottom: 29.17%;
+
+border: 2px solid #FFFFFF;
+
+ }
